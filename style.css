@@ -1,0 +1,109 @@
+/* .card
+{
+    margin-bottom: 8px;
+   
+} */
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.top{
+    color: rgb(247, 124, 30);
+    position: relative;
+    top: 80px;
+    text-align: end;
+}
+.card{
+    display: inline-block;
+    flex: 0 0 auto;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 50px 6px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.card{
+    content: "";
+    display: table;
+    clear: both;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.dropdown{ position: static; }
+.dropdown-menu { width: 100%; 
+     height:30%; 
+    text-align: center; 
+}
+.dropdown-menu>li { display: block;
+    background-color: blueviolet; }
+.dropdown-items{
+    cursor: pointer;
+    font-weight: bold;
+} 
+ 
+@media (min-width: 992px)
+{
+	.col-desk-4,.col-desk-6,.col-desk-12
+	{
+		float: left;
+	}
+	.col-desk-4{
+		width: 33.33%;
+       
+	}
+	.col-desk-6{
+		width: 47%;
+        
+	}
+	.col-desk-12{
+		width: 100%;
+       
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-tbl-4,.col-tbl-6,.col-tbl-12
+	{
+		float: left;
+	}
+	
+	.col-tbl-4{
+		width: 33.33%;
+	}
+	.col-tbl-6{
+		width: 50%;
+	}
+	.col-tbl-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px)
+{
+    h1{
+        margin-top: 120px;
+    }
+    
+	.col-mob-4,.col-mob-6,.col-mob-12
+	{
+		float: left;
+
+	}
+	
+	.col-mob-4{
+		width: 33.33%;
+	}
+	
+	.col-mob-6{
+		width: 47%;
+	}
+	.col-mob-12{
+        margin-top: 50px;
+		width: 100%;
+	}
+}
